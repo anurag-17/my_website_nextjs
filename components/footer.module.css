@@ -1,0 +1,176 @@
+.rectangle {
+  width: 1440px;
+  height: 216px;
+  position: relative;
+  background-color: var(--color-lavender);
+  display: none;
+  max-width: 100%;
+}
+.div,
+.landie {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  z-index: 1;
+}
+.landie {
+  margin: 0;
+  font-size: inherit;
+  line-height: 38px;
+  font-weight: 900;
+  font-family: inherit;
+  z-index: 2;
+}
+.rectangleShape {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+  font-size: var(--bold-26-size);
+  color: var(--colour-logo-primary);
+}
+.bg {
+  height: 26px;
+  width: 109px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--colour-main-blue-800);
+  display: none;
+}
+.buttonLabel {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  z-index: 1;
+}
+.elementbuttonsmallfilled {
+  width: 109px;
+  border-radius: var(--br-11xs);
+  background-color: var(--colour-main-blue-800);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) 0;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--medium-12-size);
+  color: var(--colour-secondary-white-100-general);
+}
+.designerIntroCopyFrame {
+  width: 1110px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.footerBase {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-lightgray);
+  z-index: 1;
+}
+.about,
+.contact,
+.home {
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.homeAboutContactFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-43xl);
+}
+.iconsocialinstagramCopy4 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  min-height: 16px;
+  z-index: 1;
+}
+.iconsocialinstagramCopy3 {
+  object-fit: cover;
+}
+.iconsocialinstagram,
+.iconsocialinstagramCopy,
+.iconsocialinstagramCopy2,
+.iconsocialinstagramCopy3 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  min-height: 16px;
+  z-index: 1;
+}
+.iconsocialinstagram,
+.iconsocialinstagramCopy {
+  object-fit: cover;
+}
+.frameWithIconSocialInstagr,
+.frameWithTitleBody {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.frameWithTitleBody {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footer,
+.frameFooter {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.frameFooter {
+  width: 1110px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  color: var(--colour-main-blue-300);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-lavender);
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-height: 216px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--regular-14-size);
+  color: var(--colour-main-grey-400);
+  font-family: var(--regular-14);
+}
+@media screen and (max-width: 750px) {
+  .frameWithTitleBody {
+    flex-wrap: wrap;
+  }
+  .footer {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .landie {
+    font-size: var(--font-size-2xl);
+    line-height: 30px;
+  }
+  .designerIntroCopyFrame {
+    flex-wrap: wrap;
+  }
+}

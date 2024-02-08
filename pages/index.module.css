@@ -1,0 +1,45 @@
+.mask {
+  align-self: stretch;
+  height: 1025px;
+  position: relative;
+  display: none;
+}
+.rectangleIcon {
+  width: 2546.9px;
+  position: relative;
+  max-height: 100%;
+  mix-blend-mode: normal;
+  max-width: 124%;
+  margin-top: -1017px;
+  flex-shrink: 0;
+}
+.notProvided,
+.rectangleWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.rectangleWrapper {
+  width: 2060px;
+  justify-content: flex-start;
+  max-width: 143%;
+  flex-shrink: 0;
+}
+.notProvided {
+  align-self: stretch;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.landingPage2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--colour-secondary-white-100-general);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}

@@ -1,0 +1,159 @@
+.title {
+  margin: 0;
+  align-self: stretch;
+  height: 132px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 1px;
+  line-height: 66px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.loremIpsumDolor {
+  margin-block-start: 0;
+  margin-block-end: 14px;
+}
+.musDonecQuam {
+  margin: 0;
+}
+.body {
+  align-self: stretch;
+  height: 164px;
+  position: relative;
+  font-size: var(--regular-18-size);
+  line-height: 30px;
+  color: var(--colour-main-blue-500);
+  display: inline-block;
+  z-index: 2;
+}
+.frameContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.bg {
+  height: 36px;
+  width: 189px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--colour-main-blue-800);
+  display: none;
+}
+.buttonLabel {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+  z-index: 1;
+}
+.bg1,
+.elementbuttonlargefilled {
+  border-radius: var(--br-11xs);
+  box-sizing: border-box;
+}
+.elementbuttonlargefilled {
+  flex: 1;
+  background-color: var(--colour-main-blue-800);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) 0;
+  min-width: 123px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.bg1 {
+  height: 36px;
+  width: 189px;
+  position: relative;
+  border: 2px solid var(--colour-main-blue-900);
+  display: none;
+}
+.buttonLabel1 {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 1;
+}
+.elementbuttonlargefilledCo {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 2px solid var(--colour-main-blue-900);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xs) 0 var(--padding-10xs);
+  min-width: 123px;
+  z-index: 2;
+  color: var(--colour-main-blue-900);
+}
+.largeCopyButtonFrame {
+  width: 408px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-11xl);
+  text-align: center;
+  font-size: var(--regular-16-size);
+  color: var(--colour-secondary-white-100-general);
+}
+.backgroundImageCard,
+.largeCopyButtonFrame,
+.titleTextCard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.backgroundImageCard {
+  width: 539px;
+  flex-direction: column;
+  gap: var(--gap-50xl);
+}
+.titleTextCard {
+  width: 1154px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) var(--padding-367xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--medium-50-size);
+  color: var(--colour-main-blue-900);
+  font-family: var(--regular-14);
+}
+@media screen and (max-width: 1050px) {
+  .title {
+    font-size: var(--font-size-21xl);
+    line-height: 53px;
+  }
+  .titleTextCard {
+    padding-bottom: var(--padding-232xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .backgroundImageCard {
+    gap: var(--gap-50xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-11xl);
+    line-height: 40px;
+  }
+  .backgroundImageCard {
+    gap: var(--gap-50xl);
+  }
+  .titleTextCard {
+    padding-bottom: var(--padding-144xl);
+    box-sizing: border-box;
+  }
+}
